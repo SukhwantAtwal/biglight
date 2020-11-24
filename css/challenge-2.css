@@ -1,0 +1,31 @@
+/* Type your CSS code here. */
+
+.sa-mobile-promo-container {
+    background-color: #232f3e;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top:0;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.sa-mobile-promo-heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sa-mobile-promo-heading:first-of-type {
+    margin-bottom: 0;
+}
+
+.sa-mobile-promo-code {
+    font-size: 16px;
+}
+
+.sa-mobile-promo-code span {
+   color: #e67a00;
+}
+
+.sa-mobile-promo-tacs {
+    font-size: 10px;
+}

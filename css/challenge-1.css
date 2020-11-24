@@ -1,0 +1,39 @@
+/* Type your CSS code here. */
+
+.am-bottom-slider-wrapper {
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #232f3e;
+    transition: bottom .2s ease-in-out;
+}
+
+.am-bottom-slider-wrapper.saHide {
+    bottom: -90px;
+    z-index: -100;
+}
+
+.am-bottom-slider-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.am-bottom-slider-container select {
+    border: 1px solid #DDD;
+    /* border-radius: 4px 4px 4px 4px; */
+    padding: 3px;    
+    margin-right: 20px;
+    height: 47.6px;
+}
+
+.am-bottom-slider-container .a-native-dropdown {
+    opacity: 1;
+    z-index: auto;
+    position: static;
+    display: block;
+    font-weight: normal;
+}
